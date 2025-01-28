@@ -74,9 +74,9 @@
                 </a>
             </div>
             <div>
-                <a href="page5.php" class="block group">
+                <a href="/musicale/" class="block group">
                     <img src="upload/gallery-5.jpg" alt="Item 5" class="rounded-lg shadow-md group-hover:scale-105 transition-transform">
-                    <p class="text-center mt-2">Titre 5</p>
+                    <p class="text-center mt-2">La saison musicale</p>
                 </a>
             </div>
         </div>
