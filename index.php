@@ -23,7 +23,7 @@
 
     <!-- About Section -->
     <section id="about" class="container mx-auto p-4 flex items-center space-x-6">
-        <img src="src/main.png" alt="About Us" class="w-1/3 rounded-lg shadow-md">
+        <img src="upload/main.png" alt="About Us" class="w-1/3 rounded-lg shadow-md">
         <div>
             <h2 class="text-3xl font-bold mb-4">À propos de nous</h2>
             <p class="mb-4">Bienvenue sur le site officiel du Château de Versailles, l'un des monuments les plus époustouflants et historiquement significatifs au monde. Notre mission est de vous offrir une expérience immersive et enrichissante qui fait revivre la grandeur de ce palais emblématique. Que vous soyez un passionné d'histoire, un amateur d'art ou simplement quelqu'un qui apprécie la beauté de l'architecture et de la nature, nous vous invitons à explorer l'héritage riche de Versailles à travers nos visites virtuelles, ressources éducatives et informations détaillées sur l'histoire du palais, ses collections d'art et ses jardins somptueux.</p>
