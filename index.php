@@ -25,8 +25,13 @@
     <header class="bg-white shadow-md">
         <div class="container mx-auto flex justify-between items-center p-4">
             <a href="/"><div class="text-2xl text-yellow-600 font-bold">Château de Versailles</div></a>
-            <nav>
-                <ul class="flex space-x-4">
+            <button id="menu-toggle" class="lg:hidden text-gray-600 focus:outline-none">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16m-7 6h7"></path>
+                </svg>
+            </button>
+            <nav id="menu" class="hidden lg:flex lg:space-x-4">
+                <ul class="flex flex-col lg:flex-row lg:items-center space-y-4 lg:space-y-0 lg:space-x-4">
                     <li><a href="index.php" class="text-gray-600 hover:text-blue-600">Accueil</a></li>
                     <li><a href="privacy.php" class="text-gray-600 hover:text-blue-600">Politique de Confidentialité</a></li>
                     <li><a href="terms.php" class="text-gray-600 hover:text-blue-600">Conditions Générales</a></li>
@@ -131,6 +136,16 @@
         localStorage.setItem('cookiesAccepted', 'true');
         cookieNotice.style.display = 'none';
         });
+    </script>
+    <script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const menuToggle = document.getElementById('menu-toggle');
+        const menu = document.getElementById('menu');
+
+        menuToggle.addEventListener('click', () => {
+            menu.classList.toggle('hidden');
+        });
+    });
     </script>
 </body>
 </html>
