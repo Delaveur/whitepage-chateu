@@ -23,10 +23,11 @@
 
     <!-- About Section -->
     <section id="about" class="container mx-auto p-4 flex items-center space-x-6">
-        <img src="placeholder.jpg" alt="About Us" class="w-1/3 rounded-lg shadow-md">
+        <img src="src/main.png" alt="About Us" class="w-1/3 rounded-lg shadow-md">
         <div>
-            <h2 class="text-3xl font-bold mb-4">О нас</h2>
-            <p>Мы занимаемся созданием высококачественных сайтов и предоставляем профессиональные услуги веб-разработки.</p>
+            <h2 class="text-3xl font-bold mb-4">À propos de nous</h2>
+            <p class="mb-4">Bienvenue sur le site officiel du Château de Versailles, l'un des monuments les plus époustouflants et historiquement significatifs au monde. Notre mission est de vous offrir une expérience immersive et enrichissante qui fait revivre la grandeur de ce palais emblématique. Que vous soyez un passionné d'histoire, un amateur d'art ou simplement quelqu'un qui apprécie la beauté de l'architecture et de la nature, nous vous invitons à explorer l'héritage riche de Versailles à travers nos visites virtuelles, ressources éducatives et informations détaillées sur l'histoire du palais, ses collections d'art et ses jardins somptueux.</p>
+            <p>Au Château de Versailles, nous nous efforçons de préserver et de partager le legs de cet extraordinaire domaine, qui a été un symbole de pouvoir, de luxe et d'accomplissement culturel pendant des siècles. De ses modestes débuts en tant que pavillon de chasse jusqu'à sa transformation en centre du pouvoir royal sous Louis XIV, Versailles continue de captiver les visiteurs du monde entier. Notre équipe d'historiens, de conservateurs et de guides touristiques travaille sans relâche pour s'assurer que chaque visiteur—que ce soit en personne ou en ligne—repart avec une compréhension et une appréciation plus profondes de ce trésor inégalé.</p>
         </div>
     </section>
 
