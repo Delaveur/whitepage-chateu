@@ -50,9 +50,9 @@
         <h2 class="text-3xl font-bold mb-4">Pages intéressantes</h2>
         <div class="grid grid-cols-5 gap-4">
             <div>
-                <a href="page1.php" class="block group">
+                <a href="/marie/" class="block group">
                     <img src="upload/gallery-1.png" alt="Item 1" class="rounded-lg shadow-md group-hover:scale-105 transition-transform">
-                    <p class="text-center mt-2">Titre 1</p>
+                    <p class="text-center mt-2">Marie-Antoinette, reine de France, et ses enfants</p>
                 </a>
             </div>
             <div>
