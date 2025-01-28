@@ -70,25 +70,25 @@
 
     <!-- Contact Form Section -->
     <section id="contact" class="container mx-auto p-4">
-        <h2 class="text-3xl font-bold mb-4">Обратная связь</h2>
+        <h2 class="text-3xl font-bold mb-4">Rétroaction</h2>
         <form action="contact.php" method="POST" class="bg-white p-6 rounded-lg shadow-md">
             <div class="mb-4">
-                <label for="lastName" class="block mb-2">Фамилия</label>
+                <label for="lastName" class="block mb-2">Nom de famille</label>
                 <input type="text" id="lastName" name="lastName" class="w-full p-2 border rounded-lg">
             </div>
             <div class="mb-4">
-                <label for="firstName" class="block mb-2">Имя</label>
+                <label for="firstName" class="block mb-2">Nom</label>
                 <input type="text" id="firstName" name="firstName" class="w-full p-2 border rounded-lg">
             </div>
             <div class="mb-4">
-                <label for="email" class="block mb-2">Емейл</label>
+                <label for="email" class="block mb-2">Email</label>
                 <input type="email" id="email" name="email" class="w-full p-2 border rounded-lg">
             </div>
             <div class="mb-4">
-                <label for="message" class="block mb-2">Сообщение</label>
+                <label for="message" class="block mb-2">Message</label>
                 <textarea id="message" name="message" class="w-full p-2 border rounded-lg"></textarea>
             </div>
-            <button type="submit" class="bg-blue-600 text-white py-2 px-4 rounded-lg">Отправить</button>
+            <button type="submit" class="bg-blue-600 text-white py-2 px-4 rounded-lg">Envoyer</button>
         </form>
     </section>
 
