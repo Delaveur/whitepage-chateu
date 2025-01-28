@@ -68,9 +68,9 @@
                 </a>
             </div>
             <div>
-                <a href="page4.php" class="block group">
+                <a href="/decouvrir/histoire/" class="block group">
                     <img src="upload/gallery-4.jpg" alt="Item 4" class="rounded-lg shadow-md group-hover:scale-105 transition-transform">
-                    <p class="text-center mt-2">Titre 4</p>
+                    <p class="text-center mt-2">L'histoire</p>
                 </a>
             </div>
             <div>
