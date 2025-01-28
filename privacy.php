@@ -13,7 +13,7 @@
             <nav>
                 <ul class="flex space-x-4">
                     <li><a href="index.php" class="text-gray-600 hover:text-blue-600">Accueil</a></li>
-                    <li><a href="#" class="text-gray-600 hover:text-blue-600">Politique de Confidentialité</a></li>
+                    <li><a href="privacy.php" class="text-gray-600 hover:text-blue-600">Politique de Confidentialité</a></li>
                     <li><a href="terms.php" class="text-gray-600 hover:text-blue-600">Conditions Générales</a></li>
                 </ul>
             </nav>
