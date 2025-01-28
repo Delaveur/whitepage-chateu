@@ -33,24 +33,36 @@
 
     <!-- Gallery Section -->
     <section id="gallery" class="container mx-auto p-4">
-        <h2 class="text-3xl font-bold mb-4">Галерея</h2>
-        <div class="grid grid-cols-3 gap-4">
+        <h2 class="text-3xl font-bold mb-4">Pages intéressantes</h2>
+        <div class="grid grid-cols-5 gap-4">
             <div>
                 <a href="page1.php" class="block group">
-                    <img src="placeholder.jpg" alt="Item 1" class="rounded-lg shadow-md group-hover:scale-105 transition-transform">
-                    <p class="text-center mt-2">Название 1</p>
+                    <img src="upload/gallery-1.png" alt="Item 1" class="rounded-lg shadow-md group-hover:scale-105 transition-transform">
+                    <p class="text-center mt-2">Titre 1</p>
                 </a>
             </div>
             <div>
                 <a href="page2.php" class="block group">
-                    <img src="placeholder.jpg" alt="Item 2" class="rounded-lg shadow-md group-hover:scale-105 transition-transform">
-                    <p class="text-center mt-2">Название 2</p>
+                    <img src="upload/gallery-2.jpg" alt="Item 2" class="rounded-lg shadow-md group-hover:scale-105 transition-transform">
+                    <p class="text-center mt-2">Titre 2</p>
                 </a>
             </div>
             <div>
                 <a href="page3.php" class="block group">
-                    <img src="placeholder.jpg" alt="Item 3" class="rounded-lg shadow-md group-hover:scale-105 transition-transform">
-                    <p class="text-center mt-2">Название 3</p>
+                    <img src="upload/gallery-3.jpg" alt="Item 3" class="rounded-lg shadow-md group-hover:scale-105 transition-transform">
+                    <p class="text-center mt-2">Titre 3</p>
+                </a>
+            </div>
+            <div>
+                <a href="page4.php" class="block group">
+                    <img src="upload/gallery-4.jpg" alt="Item 4" class="rounded-lg shadow-md group-hover:scale-105 transition-transform">
+                    <p class="text-center mt-2">Titre 4</p>
+                </a>
+            </div>
+            <div>
+                <a href="page5.php" class="block group">
+                    <img src="upload/gallery-5.jpg" alt="Item 5" class="rounded-lg shadow-md group-hover:scale-105 transition-transform">
+                    <p class="text-center mt-2">Titre 5</p>
                 </a>
             </div>
         </div>
