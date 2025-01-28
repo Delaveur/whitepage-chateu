@@ -91,15 +91,19 @@
         </div>
     </footer>
     <!-- Cookies Notice -->
-    <div id="cookie-notice" class="fixed bottom-4 right-4 bg-white p-4 rounded-lg shadow-lg border">
-        <p class="text-gray-800">Nous utilisons des cookies pour améliorer votre expérience sur notre site. En continuant, vous acceptez notre utilisation des cookies.</p>
-        <button id="accept-cookies" class="bg-blue-600 text-white py-1 px-3 rounded-lg mt-2">Accepter</button>
+    <div id="cookie-notice" class="fixed bottom-0 left-0 w-full bg-gray-800 text-white p-4 text-center" style="display: none;">
+        <p>Nous utilisons des cookies pour améliorer votre expérience. En continuant, vous acceptez notre <a href="privacy.php" class="text-blue-400 underline">Politique de Confidentialité</a>.</p>
+        <button id="accept-cookies" class="bg-blue-500 text-white px-4 py-2 rounded mt-2">Accepter</button>
     </div>
     <script>
         const cookieNotice = document.getElementById('cookie-notice');
         const acceptCookies = document.getElementById('accept-cookies');
+        if (!localStorage.getItem('cookiesAccepted')) {
+            cookieNotice.style.display = 'block';
+        }
         acceptCookies.addEventListener('click', () => {
-            cookieNotice.style.display = 'none';
+        localStorage.setItem('cookiesAccepted', 'true');
+        cookieNotice.style.display = 'none';
         });
     </script>
 </body>
