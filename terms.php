@@ -36,7 +36,7 @@
     </section>
 
     <footer class="bg-gray-800 text-white p-4 text-center">
-        <p>© 2025. Tous droits réservés.</p>
+        <p>© <?php echo date("Y"); ?>. Tous droits réservés.</p>
         <div class="mt-2">
             <a href="privacy.php" class="text-blue-400 hover:underline mx-2">Politique de Confidentialité</a>
             <a href="terms.php" class="text-blue-400 hover:underline mx-2">Conditions Générales</a>
