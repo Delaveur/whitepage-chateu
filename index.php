@@ -82,7 +82,25 @@
 
     <!-- Footer -->
     <footer class="bg-gray-800 text-white p-4 text-center">
-        <p>© 2025. Все права защищены.</p>
+        <div class="container mx-auto">
+            <p>© 2025. Tous droits réservés.</p>
+            <div class="mt-2">
+                <a href="privacy.php" class="text-blue-400 hover:underline mx-2">Politique de Confidentialité</a>
+                <a href="terms.php" class="text-blue-400 hover:underline mx-2">Conditions Générales</a>
+            </div>
+        </div>
     </footer>
+    <!-- Cookies Notice -->
+    <div id="cookie-notice" class="fixed bottom-4 right-4 bg-white p-4 rounded-lg shadow-lg border">
+        <p class="text-gray-800">Nous utilisons des cookies pour améliorer votre expérience sur notre site. En continuant, vous acceptez notre utilisation des cookies.</p>
+        <button id="accept-cookies" class="bg-blue-600 text-white py-1 px-3 rounded-lg mt-2">Accepter</button>
+    </div>
+    <script>
+        const cookieNotice = document.getElementById('cookie-notice');
+        const acceptCookies = document.getElementById('accept-cookies');
+        acceptCookies.addEventListener('click', () => {
+            cookieNotice.style.display = 'none';
+        });
+    </script>
 </body>
 </html>
