@@ -61,9 +61,9 @@
                 </a>
             </div>
             <div>
-                <a href="page2.php" class="block group">
+                <a href="/bresson/" class="block group">
                     <img src="upload/gallery-2.jpg" alt="Item 2" class="rounded-lg shadow-md group-hover:scale-105 transition-transform">
-                    <p class="text-center mt-2">Titre 2</p>
+                    <p class="text-center mt-2">Exposition Guillaume Bresson</p>
                 </a>
             </div>
             <div>
