@@ -67,9 +67,9 @@
                 </a>
             </div>
             <div>
-                <a href="page3.php" class="block group">
+                <a href="/galeries/" class="block group">
                     <img src="upload/gallery-3.jpg" alt="Item 3" class="rounded-lg shadow-md group-hover:scale-105 transition-transform">
-                    <p class="text-center mt-2">Titre 3</p>
+                    <p class="text-center mt-2">Galeries du Château de Versailles</p>
                 </a>
             </div>
             <div>
