@@ -25,11 +25,14 @@
     <header class="bg-white shadow-md">
         <div class="container mx-auto flex justify-between items-center p-4">
             <a href="/"><div class="text-2xl text-yellow-600 font-bold">Château de Versailles</div></a>
-            <nav>
-                <ul class="flex space-x-4">
-                    <li><a href="/index.php" class="text-gray-600 hover:text-blue-600">Accueil</a></li>
-                    <li><a href="/privacy.php" class="text-gray-600 hover:text-blue-600">Politique de Confidentialité</a></li>
-                    <li><a href="/terms.php" class="text-gray-600 hover:text-blue-600">Conditions Générales</a></li>
+            <nav id="menu" class="hidden lg:flex lg:space-x-4">
+                <ul class="flex flex-col lg:flex-row lg:items-center space-y-4 lg:space-y-0 lg:space-x-4">
+                    <li><a href="/decouvrir/histoire/" class="text-gray-600 hover:text-blue-600">L'histoire</a></li>
+                    <li><a href="/preparer-ma-visite/" class="text-gray-600 hover:text-blue-600">Visite</a></li>
+                    <li><a href="/preparer-ma-visite/informations-pratiques/" class="text-gray-600 hover:text-blue-600">Informations</a></li>
+                    <li><a href="/preparer-ma-visite/billets-tarifs/" class="text-gray-600 hover:text-blue-600">Billets</a></li>
+                    <li><a href="/actualites/agenda-chateau-versailles/" class="text-gray-600 hover:text-blue-600">Actualités</a></li>
+                    <li><a href="/contact/" class="text-gray-600 hover:text-blue-600">Contact</a></li>
                 </ul>
             </nav>
         </div>
@@ -62,5 +65,15 @@
             </div>
         </div>
     </footer>
+    <script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const menuToggle = document.getElementById('menu-toggle');
+        const menu = document.getElementById('menu');
+
+        menuToggle.addEventListener('click', () => {
+            menu.classList.toggle('hidden');
+        });
+    });
+    </script>
 </body>
 </html>
